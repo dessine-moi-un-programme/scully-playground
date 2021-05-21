@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeModule } from './home/home.module';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeModule } from './home/home.module';
     AppRoutingModule,
     CoreModule,
     NgbModule,
-    HomeModule
+    HomeModule,
+    ScullyLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
