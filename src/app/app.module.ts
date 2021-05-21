@@ -7,6 +7,7 @@ import { CoreModule } from './core/core.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeModule } from './home/home.module';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
     CoreModule,
     NgbModule,
     HomeModule,
-    ScullyLibModule
+    ScullyLibModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
